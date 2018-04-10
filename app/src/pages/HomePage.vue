@@ -169,7 +169,7 @@
             </p>
 
             <!-- CTA -->
-            <a href="https://raw.githubusercontent.com/sutd-statnlp/project-statnlp-desktop-crawling-tweet/master/download/TweetsCrawling.dmg.zip" class="btn btn-primary btn-md">Android
+            <a href="https://i.diawi.com/CjhuK5" class="btn btn-primary btn-md">Android
               <i class="fa fa-download ml-1"></i>
             </a>
             <a href="https://raw.githubusercontent.com/sutd-statnlp/project-statnlp-desktop-crawling-tweet/master/download/TweetsCrawling.exe.zip" class="btn btn-primary btn-md">IOS
