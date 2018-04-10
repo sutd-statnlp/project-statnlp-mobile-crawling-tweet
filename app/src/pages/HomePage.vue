@@ -9,7 +9,7 @@
         <div class="container">
 
           <!--Grid row-->
-          <div class="row wow fadeIn">
+          <div class="row">
 
             <!--Grid column-->
             <div class="col-md-6 mb-4 white-text text-center text-md-left">
@@ -102,7 +102,7 @@
     </div>
     <main>
     <div class="container">
-      <section id="sec-crawling" class="wow fadeIn mt-4">
+      <section id="sec-crawling" class="mt-4">
         <!--Grid row-->
         <div class="row">
           <!--Grid column-->
@@ -140,7 +140,7 @@
         <!--Grid row-->
       </section>
       <!--Section: Main info-->
-      <section id="sec-apps" class="mt-5 wow fadeIn">
+      <section id="sec-apps" class="mt-5">
 
         <!--Grid row-->
         <div class="row">
@@ -148,7 +148,7 @@
           <!--Grid column-->
           <div class="col-md-6 mb-4">
 
-            <img :src="appImg" class="img-fluid z-depth-1-half" alt="">
+            <img :src="'.' + appImg" class="img-fluid z-depth-1-half" alt="">
 
           </div>
           <!--Grid column-->
@@ -185,12 +185,12 @@
       <!--Section: Main info-->
 
       <!--Section: Main info-->
-      <section id="sec-option" class="mt-2 wow fadeIn mb-5">
+      <section id="sec-option" class="mt-2 mb-5">
         <hr class="my-5">
          <!--Grid column-->
           <h2 class="my-5 h3 text-center">Popular Options</h2>
           <!--First row-->
-          <div class="row features-small mt-5 wow fadeIn">
+          <div class="row features-small mt-5">
 
             <!--Grid column-->
             <div class="col-xl-3 col-lg-6">
@@ -218,12 +218,12 @@
           </div>
           <!--/First row-->
       </section>
-      <section id="sec-upcoming" class="mt-2 wow fadeIn mb-5">
+      <section id="sec-upcoming" class="mt-2 mb-5">
         <hr class="my-5">
          <!--Grid column-->
           <h2 class="my-5 h3 text-center">Upcoming Options</h2>
           <!--First row-->
-          <div class="row features-small mt-5 wow fadeIn">
+          <div class="row features-small mt-5">
 
             <!--Grid column-->
             <div class="col-xl-3 col-lg-6">
@@ -371,6 +371,9 @@ export default {
   @media (max-width: 575.98px) {
     #sec-intro .container {
       padding-top: 80px;
+    }
+    #maxMinute {
+      width: 170px;
     }
   }
   @media (min-width: 768px) {
